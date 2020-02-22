@@ -1,0 +1,47 @@
+{
+  "version": "0.0.0-canary.0",
+  "name": "krypton86",
+  "author": "@maxchehab <maxchehab@gmail.com>",
+  "description": "gimme gimme dat money",
+  "homepage": "https://github.com/maxchehab/krypton86-node",
+  "license": "MIT",
+  "keywords": [
+    "krypton86"
+  ],
+  "main": "dist/src/krypton.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxchehab/krypton86-node"
+  },
+  "bugs": {
+    "url": "https://github.com/maxchehab/krypton86-node/issues"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "test": "jest",
+    "prettier": "prettier \"src/**/*.{js,ts,tsx}\" --check",
+    "format": "prettier \"src/**/*.{js,ts,tsx}\" --write",
+    "prepare": "yarn run build",
+    "bump-version": " auto-upgrade-npm-version",
+    "preversion": "yarn run lint"
+  },
+  "dependencies": {
+    "axios": "0.19.0"
+  },
+  "devDependencies": {
+    "@types/jest": "24.9.0",
+    "@types/node": "12.12.24",
+    "auto-upgrade-npm-version": "1.0.7",
+    "axios-mock-adapter": "1.17.0",
+    "jest": "24.9.0",
+    "prettier": "1.19.1",
+    "supertest": "4.0.2",
+    "ts-jest": "24.3.0",
+    "tslint": "5.20.1",
+    "typescript": "3.7.5"
+  }
+}
