@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0-canary.0",
+  "version": "0.0.0-canary.1",
   "name": "krypton86",
   "author": "@maxchehab <maxchehab@gmail.com>",
   "description": "gimme gimme dat money",
@@ -8,7 +8,7 @@
   "keywords": [
     "krypton86"
   ],
-  "main": "dist/src/krypton.js",
+  "main": "dist/src/krypton86.js",
   "files": [
     "dist/**/*"
   ],
