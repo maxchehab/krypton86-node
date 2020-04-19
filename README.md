@@ -7,7 +7,7 @@ A client for [krytpon86.com](https://krytpon86.com)
 You can install the krypton86 client in your local environment by running:
 
 ```
-yarn add krytpon86
+yarn add krypton86
 ```
 
 ## Configuration
